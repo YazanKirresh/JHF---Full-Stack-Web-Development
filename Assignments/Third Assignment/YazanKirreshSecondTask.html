@@ -3,8 +3,8 @@
 <style>
 
 * {
-  gap: 3px;
-  padding: 15px 150px 15px 15px;
+  gap: 30px;
+  padding: 15px 15px 15px 15px;
   border: 1px solid black;
 }
 
@@ -32,12 +32,13 @@ footer {
   background-color: #fea685;
 }
 
-p {
+span {
 
   background-color: white;
 }
 
 div {
+	
   border: 0px solid black;
 }
 
@@ -67,10 +68,10 @@ div {
 					Header
 				</header>
 			</div>
-			<nav class="grid-item">
-				<p>1</p>
-				<p>2</p>
-				<p>3</p>
+			<nav class="grid-item" style="display: grid; grid-template-columns: 30px 30px 30px; justify-content: end;justify-items: stretch;">
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
 			</nav>
 			<div class="grid-item" style="display: grid; grid-template-columns: 1fr 1fr;">
 				<article>
